@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+header{
+    background-color: none;
+    padding: 20px 15px;
+    text-align: center;
+    
+}
+header img{
+    height: 110px;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 30px;
+    color: black;
+}
+nav .active{
+    text-decoration: underline;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.button{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.button:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+
+}
+main{
+    position: relative;
+    background-image: url(background9.jpg);
+    background-position: top;
+    background-size: cover;
+    min-height: 800px;
+}
+.maincont{
+    color: yellow;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    animation-name: maincont;
+}
+@keyframes maincont {
+    from{
+        color: rgba(255, 255, 0, 0);
+    }
+    to{
+        color: yellow;
+    }
+}
+.songsect{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+}
+.left{
+    width: 45%;
+
+}
+.left h1{
+     font-size: 3.2em;
+     margin-bottom: 40px;
+}
+.left p{
+    font-size: 1.1em;
+}
+.right{
+    margin: 0px 30px;
+    width: 45%;
+    text-align: center;
+}
+.right h1{
+    font-size: 2.2em;
+    background-color: rgba(0, 0, 0, 0.093);
+}
+.dropdowns{
+    margin-top: 30px;
+}
+.dropdowncont{
+    margin-top: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Add a smooth transition for max-height */
+  }
+  
+  .dropdowns:hover .dropdowncont {
+    max-height: 1000px;
+  }
+.caret{
+    font-size: .5em;
+    text-decoration: none;
+}
+.review{
+    background-color: yellow;
+    background-image: url(background10.jpg);
+    background-position:bottom;
+    background-size: cover;
+    min-height: 650px;
+    margin: 50px 30px;
+    text-align: center;
+    position: relative;
+}
+.sectioncont{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+   
+}
+.sectioncont h1{
+    font-size: 3.8em;
+    margin-bottom: 10px;
+}
+.sectioncont p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.sectioncont i{
+    text-align: center;
+    letter-spacing: 10px;    
+    font-size: 1.5em;
+}
+footer{
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+footer h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+footer .button{
+    transition: .3s;
+}
+.button:hover{
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    text-decoration: none;
+}
+
+footer i{
+    color: black;
+    border: 1px solid black;
+    border-radius: 55%;
+    margin-left: 15px;
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 10px;
+    transition:.3s;
+}
+footer i:hover{
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    color: yellow;
+}
+@media screen and (max-width:921px){
+    .songsect{
+        flex-direction: column;
+        text-align: center;
+        margin: 100px 0px;
+    }
+    .right{
+        margin: 40px 0px 0px 0px;
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:765px){
+    .maincont{
+        font-size: 2.8em;
+}
+}
+@media screen and (max-width:625px){
+    .sectioncont h1{
+        font-size:2.5em
+    }
+    .review{
+        margin:50px 10px;
+    }
+}
+@media screen and (max-width:606px){
+    header {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Align items to the left */
+        text-align: center;
+      }
+    
+      nav {
+        margin-top: 10px; /* Add spacing between logo and links */
+      }
+    
+      nav a {
+        padding: 10px;
+        margin-left: 0; /* Reset margin for links */
+        display: block; /* Display links as block elements */
+        margin-bottom: 10px; /* Add vertical spacing between links */
+      }
+    }
+    @media screen and (max-width:545px){
+        .left h1{
+            font-size: 2.8em;
+        }
+    }
+        
+    @media screen and (max-width:488px){
+        footer h1{
+            font-size:2.4em ;
+        }
+    }
