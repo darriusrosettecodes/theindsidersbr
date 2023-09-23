@@ -8,6 +8,7 @@ header{
     background-color: none;
     padding: 20px 15px;
     text-align: center;
+    word-wrap: nowrap;
     
 }
 header img{
@@ -275,11 +276,12 @@ footer i:hover{
         margin:50px 10px;
     }
 }
-@media screen and (max-width:606px){
+@media screen and (max-width:639px){
     header {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Align items to the left */
         text-align: center;
+        font-size: 1em;
       }
     
       nav {
@@ -295,7 +297,7 @@ footer i:hover{
 }
 @media screen and (max-width:488px){
     footer h1{
-        font-size:2.4em ;
+        font-size:2.2em ;
     }
 }
 @media screen and (max-width:362px) {
