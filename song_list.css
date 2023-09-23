@@ -85,6 +85,7 @@ main{
 }
 .left p{
     font-size: 1.1em;
+    margin:0px 10px;
 }
 .right{
     margin: 0px 30px;
