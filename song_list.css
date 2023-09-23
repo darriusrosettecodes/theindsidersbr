@@ -94,7 +94,7 @@ main{
 }
 .right h1{
     font-size: 2.2em;
-    background-color: rgba(0, 0, 0, 0.093);
+    background-color: yellow;
 }
 .dropdowns{
     margin-top: 30px;
