@@ -103,7 +103,7 @@ main{
     margin-top: 20px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease; /* Add a smooth transition for max-height */
+    transition: max-height 1s ease; /* Add a smooth transition for max-height */
   }
   
   .dropdowns:hover .dropdowncont {
