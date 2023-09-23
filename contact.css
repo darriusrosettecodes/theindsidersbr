@@ -98,8 +98,10 @@ main{
 .section1{
     margin-top: 20px;
     font-size: 1.1em;
+
 }
 .section1 input{
+    font-size: 1.1em;
     width: 100%;
     margin-bottom: 1.1em;
     height: 3em;
@@ -108,25 +110,26 @@ main{
 .section1 label{
     text-align: right;
 }
-.section2{
+.section2 label{
     font-size: 1.1em;
 }
 .section2 select{
     margin-bottom: 1.1em;
+    font-size: 1.1em;
     width: 100%;
     height: 3em;
     border: 4px solid black;
 
 }
-.section3{
+.section3 label{
     font-size: 1.1em;
 }
 .section3 select{
     margin-bottom: 1.1em;
+    font-size: 1.1em;
     width: 100%;
     height: 3em;
     border: 4px solid black;
-
 }
 .section4{
     font-size: 1.1em;
@@ -140,20 +143,19 @@ main{
 .section5 input{
     margin-bottom: 2em;
 }
-.section6{
+.section6 label{
     font-size: 1.1em;
 }
 .section6 select{
     margin-bottom: 1.1em;
+    font-size: 1.1em;
     width: 100%;
     height: 3em;
     border: 4px solid black;
 }
-.section7{
-    font-size: 1.1em;
-}
 .section7 input{
     margin-bottom: 1.1em;
+    font-size: 1.1em;
     width: 100%;
     height: 3em;
     border: 4px solid black;
@@ -163,6 +165,7 @@ main{
     font-size: 1.1em;
 }
 .section8 textarea{
+    font-size: 1.1em;
     width: 100%;
     border: 4px solid black;
 
@@ -258,6 +261,7 @@ footer i:hover{
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Align items to the left */
         text-align: center;
+        font-size: 1em;
       }
     
       nav {
@@ -269,11 +273,12 @@ footer i:hover{
         margin-left: 0; /* Reset margin for links */
         display: block; /* Display links as block elements */
         margin-bottom: 10px; /* Add vertical spacing between links */
+        width: auto;
       }
     }
     @media screen and (max-width:488px){
         footer h1{
-            font-size:2.4em ;
+            font-size:2.2em ;
         }
     }
     @media screen and (max-width:469px) {
