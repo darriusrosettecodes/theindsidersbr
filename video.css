@@ -149,7 +149,7 @@ footer i:hover{
     }
     @media screen and (max-width:579px){
         .videosection video{
-            height: 11em;
+            height: 15em;
         }
     }
     @media screen and (max-width:488px){
