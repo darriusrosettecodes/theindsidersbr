@@ -34,6 +34,7 @@ nav a:hover{
     background-color: yellow;
     padding: 10px;
     border-radius: 10px;
+    word-wrap: none;
     transition: .3s;
 }
 .button:hover{
@@ -118,7 +119,7 @@ footer i:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     color: yellow;
 }
-@media screen and (max-width:861px){
+@media screen and (max-width:968px){
     .videosection video{
         height: 20em;
     }
@@ -129,11 +130,12 @@ footer i:hover{
 }
 }
 
-@media screen and (max-width:606px){
+@media screen and (max-width:639px){
     header {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Align items to the left */
         text-align: center;
+        font-size: 1em;
       }
     
       nav {
@@ -147,13 +149,13 @@ footer i:hover{
         margin-bottom: 10px; /* Add vertical spacing between links */
       }
     }
-    @media screen and (max-width:579px){
+    @media screen and (max-width:641px){
         .videosection video{
-            height: 15em;
+            height: 10em;
         }
     }
     @media screen and (max-width:488px){
         footer h1{
-            font-size:2.4em ;
+            font-size:2.2em ;
         }
     }
