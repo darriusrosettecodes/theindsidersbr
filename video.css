@@ -135,15 +135,15 @@ footer i:hover{
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Align items to the left */
         text-align: center;
-        font-size: 1em;
+        font-size: .8em;
       }
     
       nav {
-        margin-top: 10px; /* Add spacing between logo and links */
+        margin-top: 5px; /* Add spacing between logo and links */
       }
     
       nav a {
-        padding: 10px;
+        padding: 5px;
         margin-left: 0; /* Reset margin for links */
         display: block; /* Display links as block elements */
         margin-bottom: 10px; /* Add vertical spacing between links */
