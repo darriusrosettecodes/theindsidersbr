@@ -131,18 +131,6 @@ main{
     height: 3em;
     border: 4px solid black;
 }
-.section4{
-    font-size: 1.1em;
-}
-.section4 input{
-    margin-bottom: 2em;
-}
-.section5{
-    font-size: 1.1em;
-}
-.section5 input{
-    margin-bottom: 2em;
-}
 .section6 label{
     font-size: 1.1em;
 }
